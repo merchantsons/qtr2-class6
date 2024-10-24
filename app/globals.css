@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-DM {
+  font-family: 'DM+Sans';
+}
+
+.button {
+  cursor: pointer;
+}
+
+.logo {
+  content: url('/Site-logo.svg');
+  width: 7vmin;
+  /* 67.42px */
+  height: 5vmin;
+  /* 23px */
+}
+
+
+
+/* Headings */
+.h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 5.2vmin;
+  /* 2.9rem -> 46.4px */
+  font-weight: 500;
+  letter-spacing: -0.1rem;
+  line-height: 3rem;
+  /* 1.2rem */
+}
+
+
+.h2 {
+  color: #606060;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.1vmin;
+  /* 1.2rem -> 19.2px */
+  font-weight: 300;
+  letter-spacing: -0.02rem;
+  /* -0.3px */
+  line-height: 1.3rem;
+  /* 1.2rem */
+}
+
+.h3 {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3vmin;
+  /* 1.2rem -> 19.2px */
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.h3p {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3vmin;
+  /* 1.2rem -> 19.2px */
+  font-weight: 300;
+}
+
+.proPic {
+  content: url('/profile.png');
+  width: 40vmin;
+  /* 50px */
+  height: 58vmin;
+  /* 50px */
+}
+
+.hr {
+
+  background: #181717;
+  height: 3px;
+}
+
+.ls {
+  letter-spacing: -.05rem;
+  font-size: 3vmin;
+  font-weight: 500;
+}
+
+
+.footer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2vmin;
+  font-weight: 500;
+}
